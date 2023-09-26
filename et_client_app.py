@@ -2,7 +2,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qsl
 
-PORT = 3030
+PORT = 6060
 GLO_VARS = globals()
 LOC_VARS = locals()
 

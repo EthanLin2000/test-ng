@@ -5,7 +5,7 @@ import time
 
 NGINX_PATH = os.path.expanduser("~/nginx.conf")
 
-ENV_PORT = str(int(os.environ.get("PORT", 6060)))
+ENV_PORT = str(int(os.environ.get("PORT", 3030)))
 
 PREV_CONFIG = (
     open("./nginx_prev.conf", "r", encoding="utf-8")
